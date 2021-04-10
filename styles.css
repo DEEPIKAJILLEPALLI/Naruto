@@ -1,0 +1,473 @@
+body, html {
+    height: 100%;
+  }
+  
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategrey;
+  }
+
+.narutoBody{
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    width: 300px;
+    height: 300px;
+    
+    background-color: white;
+
+
+}
+.narutofaceRight {
+    width: 45px;
+    height: 115px;
+    background-color: moccasin;
+    border-radius: -16%;
+    margin-top: 30%;
+    position: absolute;
+    margin-left: 50%;
+    border-bottom-left-radius: -20px;
+    border-bottom-right-radius: 120px;
+}
+.narutofaceLeft {
+    width: 45px;
+    height: 115px;
+    background-color: moccasin;
+    border-radius: -16%;
+    margin-top: 30%;
+    position: absolute;
+    margin-left: 35%;
+    border-bottom-left-radius: -20px;
+    border-bottom-left-radius: 120px;
+
+}
+
+.narutoface {
+    display: block;
+    width: 100px;
+    height: 120px;
+    background-color: moccasin;
+    transform: rotate(206deg);
+    border-radius: 25% 80% 50% 50% / 60% 60% 40% 40%;
+    margin-top: -8%;
+    position: relative;
+    margin-left: 26%;
+
+}
+.narutoEyes {
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    transform: rotate(156deg);
+    margin-top:260px;
+    margin-left: 102px;
+}
+#narutoLeftEye {
+    width: 22px;
+    height: 13px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 223px;
+    margin-left: 50px;
+
+}
+#narutoRightEye {
+    width: 22px;
+    height: 13px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 223px;
+}
+
+.narutoEyeBall {
+    width: 9px;
+    height: 9px;
+    margin-top: 2px;
+    background-color: rgb(12, 240, 248);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 7px;
+}
+.narutoEyeBallDot {
+    width: 4px;
+    height: 4px;
+    margin-top: 3px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 2px;
+}
+#narutoRightEyeLid{
+    width: 22px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 222px;
+    background-color: black;
+}
+#narutoLeftEyeLid {
+    width: 22px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 222px;
+    margin-left: 50px;
+
+}
+.element1 {
+    display: inline-block;
+    background: linear-gradient(180deg,#ff8a00,#e52e71);
+    height: 80px;
+    width: 60px;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    /* animation: skew 3s infinite; */
+    transform: skew(45deg);
+    animation-direction: alternate;
+    opacity: .7;
+  }
+  .element2 {
+    display: inline-block;
+    background: linear-gradient(180deg,#ff8a00,#e52e71);
+    height: 80px;
+    width: 60px;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    /* animation: skew 3s infinite; */
+    transform: skew(-45deg);
+    animation-direction: alternate;
+    opacity: .7;
+  }
+  @keyframes skew {
+    0% {
+      transform: skew(20deg, 20deg);
+    }
+    100% {
+      transform: skew(-20deg, -20deg);
+    }
+  }
+  #star-five {
+    margin: 50px 50px;
+    position: relative;
+    display: block;
+    color: yellow;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 40px solid yellow;
+    border-left: 92px solid transparent;
+    transform: rotate(
+35deg
+);
+  }
+  #star-five:before {
+    border-bottom: 80px solid yellow;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  #star-five:after {
+    position: absolute;
+    display: block;
+    color: rgb(255, 187, 0);
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid yellow;
+    border-left: 70px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+
+  }
+  #star-six {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid yellow;
+    position: relative;
+    margin-left: 91px;
+    margin-top: -125px;
+    transform: skew(
+130deg
+);
+  }
+  #star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 60px solid red;
+    position: absolute;
+    content: "";
+    top: -7px;
+    margin-left: 35px;
+    margin-top: -100px;
+    transform: skew(-130deg);
+  }
+  #star-six1 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid yellow;
+    position: relative;
+    margin-left: 68px;
+    margin-top: -45px;
+    transform: skew( 
+-304deg
+ )rotate( 
+-45deg
+ );
+  }
+
+  #star-six2 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid yellow;
+    position: relative;
+    margin-left: 83px;
+    margin-top: -41px;
+    transform: skew( 
+-406deg
+ );
+  }
+ #star-six3 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid yellow;
+    position: relative;
+    margin-left: 104px;
+    margin-top: -41px;
+    transform: skew( 
+-527deg
+ );
+  }
+
+  #narutoheadBand{
+    width: 35px;
+    margin-top: 48px;
+    margin-left: 48px;
+    position: absolute;
+    border-radius: 30% 131% 117% 70%;
+    transform: rotate( 
+64deg
+ );
+    border-bottom: 100px solid rgb(3, 3, 107);
+  }
+
+
+  #narutoNose{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 5px solid  rgb(172, 137, 77);
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 29px;
+    transform: rotate3d(11, 77, -42, 
+45deg
+); 
+  }
+#narutoNoseCurve{
+    /* width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 5px solid black;
+     /* rgb(184, 171, 150); 
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 29px; */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid  rgb(172, 137, 77);
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 37px;
+    transform: rotate(
+241deg
+);
+}
+
+#narutoLeftEyeBrow{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 3px solid yellow;
+    ;
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 64px;
+    transform: rotate(
+-185deg
+);
+
+}
+#narutoLeftEyeBrowShade{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 3px solid black;
+    ;
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 64px;
+    transform: rotate(
+-185deg
+);
+
+}
+#narutoRightEyeBrow{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 3px solid yellow;
+    position: absolute;
+    margin-top: 87px;
+    margin-left: 27px;
+    transform: rotate( 
+131deg
+ );
+}
+#narutoRightEyeBrowShade{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 3px solid black;
+    position: absolute;
+    margin-top: 87px;
+    margin-left: 27px;
+    transform: rotate( 
+131deg
+ );
+}
+
+#narutoLips{
+    width: 15px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 2px solid  rgb(172, 137, 77);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 12px;
+    transform: rotate3d(11, 77, -42, 
+45deg
+ );
+}
+#narutofaceRLine1{
+    width: 7px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    margin-top: 58px;
+    margin-left: -1px;
+    transform: rotate3d(11, 77, -42, 
+19deg
+ );
+ }
+ #narutofaceRLine2{
+    width: 4px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 0px;
+    transform: rotate3d(11, 77, -42, 
+9deg
+ );
+ }
+ 
+ #narutofaceRLine3{
+    width: 1px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 0px;
+    transform: rotate3d(11, 77, -42, 
+-8deg
+ );
+ }
+
+ #narutofaceLLine1{
+    width: 26px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 49px;
+    transform: rotate3d(11, 77, -42, 
+430deg
+ );
+ }
+ #narutofaceLLine2{
+    width: 20px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 47px;
+    transform: rotate3d(11, 77, -42, 
+71deg
+ );
+ }
+ 
+ #narutofaceLLine3{
+    width: 15px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 41px;
+    transform: rotate3d(15, 85, -62, 
+-289deg
+ );
+ }
+  
